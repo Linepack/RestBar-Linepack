@@ -1,0 +1,56 @@
+create table geiteblk(
+ cd_aplicacao    	varchar2(8),
+ nm_bloco	varchar2(8),
+ nm_item		varchar2(30),
+ ds_item		varchar2(100) not null,
+ st_inclusao	char(1),
+ st_alteracao	char(1),
+ st_exclusao	char(1),
+ st_visivel	 	char(1)
+)
+/
+
+ALTER TABLE GEITEBLK
+ ADD (NM_USUINC  VARCHAR2(30) NOT NULL)
+ADD (DT_USUINC  DATE NOT NULL)
+ ADD (NM_USUALT  VARCHAR2(30))
+ ADD (DT_USUALT  DATE)
+/
+
+alter table geiteblk
+ add constraint FK_GEITEBLK_GEBLKAPL foreign key (cd_aplicacao, nm_bloco)
+        references geblkapl(cd_aplicacao, nm_bloco)
+/
+
+create index FK_GEITEBLK_GEBLKAPL_ix on geiteblk(cd_aplicacao, nm_bloco)
+  tablespace indices_tablespace
+/
+
+alter table geiteblk 
+ add constraint PK_GEITEBLK primary key (cd_aplicacao, nm_bloco, nm_item)
+/
+
+alter table geiteblk
+ add constraint CK_GEITEBLK_ST_INCLUSAO check (st_inclusao in ('S','N'))
+/
+
+alter table geiteblk
+ add constraint CK_GEITEBLK_ST_ALTERACAO check (st_alteracao in ('S','N'))
+/
+
+alter table geiteblk
+ add constraint CK_GEITEBLK_ST_EXCLUSAO check (st_exclusao in ('S','N'))
+/
+
+comment on column geiteblk.nm_item is 'Nome do item contido no Bloco';
+comment on column geiteblk.ds_item is 'Descrição do item contido no Bloco';
+comment on column geiteblk.st_inclusao is 'Sim ou Não';
+comment on column geiteblk.st_alteracao is 'Sim ou Não';
+comment on column geiteblk.st_exclusao is 'Sim ou Não';
+comment on column geiteblk.st_visivel is 'Sim ou Não';
+
+create public synonym geiteblk for geiteblk
+/
+
+grant all on geiteblk to linepack_role
+/

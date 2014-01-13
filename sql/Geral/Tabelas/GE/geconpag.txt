@@ -1,0 +1,22 @@
+create table geconpag(
+ cd_condicao  number(4),
+ ds_condicao  varchar2(50) not null,
+ nm_usuinc    varchar2(30) not null,
+ dt_usuinc    date not null,
+ nm_usualt    varchar2(30),
+ dt_usualt    date
+)
+/
+
+alter table geconpag
+ add constraint PK_GECONPAG primary key (cd_condicao)
+/
+
+create public synonym geconpag for geconpag
+/
+
+grant all on geconpag to linepack_role
+/
+
+
+ 

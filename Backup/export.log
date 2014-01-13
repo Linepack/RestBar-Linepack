@@ -1,0 +1,74 @@
+;;; 
+Export: Release 10.2.0.1.0 - Production on Quarta-Feira, 06 Novembro, 2013 19:44:32
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Conectado a: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Iniciando "LINEPACK"."SYS_EXPORT_SCHEMA_01":  LINEPACK/********@xe directory=dir_backup dumpfile=backup_linepack.dmp 
+Estimativa em andamento com o método BLOCKS...
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/TABLE_DATA
+Estimativa total usando o método de BLOCKS: 2 MB
+Processando o tipo de objeto SCHEMA_EXPORT/USER
+Processando o tipo de objeto SCHEMA_EXPORT/SYSTEM_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/ROLE_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/DEFAULT_ROLE
+Processando o tipo de objeto SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processando o tipo de objeto SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processando o tipo de objeto SCHEMA_EXPORT/SEQUENCE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/TABLE
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/COMMENT
+Processando o tipo de objeto SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processando o tipo de objeto SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processando o tipo de objeto SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processando o tipo de objeto SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processando o tipo de objeto SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exportou "LINEPACK"."ESDEPITE"                       7.664 KB       2 linhas
+. . exportou "LINEPACK"."ESDEPOSI"                       7.210 KB       1 linhas
+. . exportou "LINEPACK"."ESGRUPOS"                       6.531 KB       1 linhas
+. . exportou "LINEPACK"."ESITEMES"                       9.359 KB       2 linhas
+. . exportou "LINEPACK"."ESSUBGRU"                       7.226 KB       1 linhas
+. . exportou "LINEPACK"."ESTIPITE"                       6.867 KB       1 linhas
+. . exportou "LINEPACK"."ESUNIMED"                       6.515 KB       2 linhas
+. . exportou "LINEPACK"."FTITEMES"                       7.742 KB      14 linhas
+. . exportou "LINEPACK"."FTITEVEN"                       9.445 KB       3 linhas
+. . exportou "LINEPACK"."FTMESA"                         6.343 KB       3 linhas
+. . exportou "LINEPACK"."FTMESVEN"                       7.992 KB       2 linhas
+. . exportou "LINEPACK"."FTPAGMES"                       6.812 KB       6 linhas
+. . exportou "LINEPACK"."GEAPLICA"                       9.828 KB      18 linhas
+. . exportou "LINEPACK"."GEBLKAPL"                       7.976 KB       5 linhas
+. . exportou "LINEPACK"."GECIDADE"                       7.195 KB       1 linhas
+. . exportou "LINEPACK"."GECONPAG"                       6.562 KB       1 linhas
+. . exportou "LINEPACK"."GEENDERE"                       11.04 KB       3 linhas
+. . exportou "LINEPACK"."GEERRORA"                       8.679 KB      21 linhas
+. . exportou "LINEPACK"."GEESTADO"                       7.195 KB       1 linhas
+. . exportou "LINEPACK"."GEFILIAL"                       8.156 KB       1 linhas
+. . exportou "LINEPACK"."GEITEBLK"                       11.11 KB      35 linhas
+. . exportou "LINEPACK"."GEMENU"                         9.132 KB      24 linhas
+. . exportou "LINEPACK"."GEPAGCON"                       7.281 KB       1 linhas
+. . exportou "LINEPACK"."GEPAIS"                         6.523 KB       1 linhas
+. . exportou "LINEPACK"."GEPARAME"                       11.89 KB       1 linhas
+. . exportou "LINEPACK"."GEPESSOA"                       8.414 KB       3 linhas
+. . exportou "LINEPACK"."GETIPOPE"                       6.921 KB       3 linhas
+. . exportou "LINEPACK"."GETIPPES"                       6.656 KB       4 linhas
+. . exportou "LINEPACK"."GEUSUAPL"                       8.789 KB      18 linhas
+. . exportou "LINEPACK"."GEUSUAPL_NIVEL2"                7.968 KB       5 linhas
+. . exportou "LINEPACK"."GEUSUAPL_NIVEL3"                10.60 KB      35 linhas
+. . exportou "LINEPACK"."GEUSUARI"                       11.48 KB       1 linhas
+. . exportou "LINEPACK"."ESMOVTO"                            0 KB       0 linhas
+. . exportou "LINEPACK"."ESSALDO"                            0 KB       0 linhas
+. . exportou "LINEPACK"."FTPAGVEN"                           0 KB       0 linhas
+. . exportou "LINEPACK"."GEAGENDA"                           0 KB       0 linhas
+. . exportou "LINEPACK"."GEITEAGE"                           0 KB       0 linhas
+. . exportou "LINEPACK"."GEMOVAPL"                           0 KB       0 linhas
+Tabela-mestre "LINEPACK"."SYS_EXPORT_SCHEMA_01" carregada/descarregada com sucesso
+******************************************************************************
+Conjunto de arquivos de dump para LINEPACK.SYS_EXPORT_SCHEMA_01 é:
+  C:\USERS\FRANCISCATO\DOCUMENTS\OUTROS\PARTICULARES\LINEPACK\BACKUP\BACKUP_LINEPACK.DMP
+O job "LINEPACK"."SYS_EXPORT_SCHEMA_01" foi concluído com sucesso em 19:44:59
