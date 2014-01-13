@@ -1,0 +1,15 @@
+alter table geiteblk
+ rename column st_exclusao to st_obrigatorio
+/
+
+alter table geiteblk
+ add constraint CK_GEITEBLK_ST_OBRIGATORIO check (st_obrigatorio in ('S','N'))
+/
+
+
+update geiteblk
+   set st_obrigatorio = 'S'
+/
+
+commit
+/

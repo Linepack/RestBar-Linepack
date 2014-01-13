@@ -1,0 +1,2 @@
+select * 
+from (select * from essaldo) AS OF TIMESTAMP TO_DATE('05-jul-2011 10:00:00', 'DD-MON-YYYY HH24:MI:SS')

@@ -1,0 +1,71 @@
+;;; 
+Import: Release 10.2.0.1.0 - Production on Terça-Feira, 07 Janeiro, 2014 17:53:07
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Conectado a: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Tabela-mestre "SYSTEM"."SYS_IMPORT_FULL_01" carregada/descarregada com sucesso
+Iniciando "SYSTEM"."SYS_IMPORT_FULL_01":  system/********@xe directory=dir_backup dumpfile=2013-11-06.DMP 
+Processando o tipo de objeto SCHEMA_EXPORT/USER
+ORA-31684: O tipo de objeto USER:"LINEPACK" já existe
+Processando o tipo de objeto SCHEMA_EXPORT/SYSTEM_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/ROLE_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/DEFAULT_ROLE
+Processando o tipo de objeto SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processando o tipo de objeto SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processando o tipo de objeto SCHEMA_EXPORT/SEQUENCE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/TABLE
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . importou "LINEPACK"."ESDEPITE"                       7.664 KB       2 linhas
+. . importou "LINEPACK"."ESDEPOSI"                       7.210 KB       1 linhas
+. . importou "LINEPACK"."ESGRUPOS"                       6.531 KB       1 linhas
+. . importou "LINEPACK"."ESITEMES"                       9.359 KB       2 linhas
+. . importou "LINEPACK"."ESSUBGRU"                       7.226 KB       1 linhas
+. . importou "LINEPACK"."ESTIPITE"                       6.867 KB       1 linhas
+. . importou "LINEPACK"."ESUNIMED"                       6.515 KB       2 linhas
+. . importou "LINEPACK"."FTITEMES"                       7.742 KB      14 linhas
+. . importou "LINEPACK"."FTITEVEN"                       9.445 KB       3 linhas
+. . importou "LINEPACK"."FTMESA"                         6.343 KB       3 linhas
+. . importou "LINEPACK"."FTMESVEN"                       7.992 KB       2 linhas
+. . importou "LINEPACK"."FTPAGMES"                       6.812 KB       6 linhas
+. . importou "LINEPACK"."GEAPLICA"                       9.828 KB      18 linhas
+. . importou "LINEPACK"."GEBLKAPL"                       7.976 KB       5 linhas
+. . importou "LINEPACK"."GECIDADE"                       7.195 KB       1 linhas
+. . importou "LINEPACK"."GECONPAG"                       6.562 KB       1 linhas
+. . importou "LINEPACK"."GEENDERE"                       11.04 KB       3 linhas
+. . importou "LINEPACK"."GEERRORA"                       8.679 KB      21 linhas
+. . importou "LINEPACK"."GEESTADO"                       7.195 KB       1 linhas
+. . importou "LINEPACK"."GEFILIAL"                       8.156 KB       1 linhas
+. . importou "LINEPACK"."GEITEBLK"                       11.11 KB      35 linhas
+. . importou "LINEPACK"."GEMENU"                         9.132 KB      24 linhas
+. . importou "LINEPACK"."GEPAGCON"                       7.281 KB       1 linhas
+. . importou "LINEPACK"."GEPAIS"                         6.523 KB       1 linhas
+. . importou "LINEPACK"."GEPARAME"                       11.89 KB       1 linhas
+. . importou "LINEPACK"."GEPESSOA"                       8.414 KB       3 linhas
+. . importou "LINEPACK"."GETIPOPE"                       6.921 KB       3 linhas
+. . importou "LINEPACK"."GETIPPES"                       6.656 KB       4 linhas
+. . importou "LINEPACK"."GEUSUAPL"                       8.789 KB      18 linhas
+. . importou "LINEPACK"."GEUSUAPL_NIVEL2"                7.968 KB       5 linhas
+. . importou "LINEPACK"."GEUSUAPL_NIVEL3"                10.60 KB      35 linhas
+. . importou "LINEPACK"."GEUSUARI"                       11.48 KB       1 linhas
+. . importou "LINEPACK"."ESMOVTO"                            0 KB       0 linhas
+. . importou "LINEPACK"."ESSALDO"                            0 KB       0 linhas
+. . importou "LINEPACK"."FTPAGVEN"                           0 KB       0 linhas
+. . importou "LINEPACK"."GEAGENDA"                           0 KB       0 linhas
+. . importou "LINEPACK"."GEITEAGE"                           0 KB       0 linhas
+. . importou "LINEPACK"."GEMOVAPL"                           0 KB       0 linhas
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/COMMENT
+Processando o tipo de objeto SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processando o tipo de objeto SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processando o tipo de objeto SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processando o tipo de objeto SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processando o tipo de objeto SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processando o tipo de objeto SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+ORA-39082: Tipo de objeto PACKAGE_BODY:"LINEPACK"."PKG_REGRAS" criado com advertências de compilação
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processando o tipo de objeto SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+O job "SYSTEM"."SYS_IMPORT_FULL_01" foi concluído com 2 erro(s) em 17:53:35
